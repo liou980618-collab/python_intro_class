@@ -8,6 +8,7 @@ print("1. 加法")
 print("2. 減法")
 print("3. 乘法")
 print("4. 除法")
+print("5. 平⽅")
 
 choice = input("輸入選項 (1/2/3/4): ")
 
@@ -24,5 +25,7 @@ elif choice == '4':
     result = functions.divide(a, b)
 else:
     result = "輸入錯誤"
+elif choice == '5':
+result = functions.square(a)
 
 print("結果:", result)
